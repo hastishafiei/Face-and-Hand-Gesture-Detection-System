@@ -22,14 +22,7 @@ A real-time computer vision system that detects faces and hand gestures using Py
 
 ### Windows
 
-1. **Easy Setup** (Recommended):
-   - Double-click `setup_windows.bat`
-   - Wait for installation to complete
-
-2. **Run the application**:
-   - Double-click `run_windows.bat`
-
-3. **Manual Setup** (Alternative):
+1. **Manual Setup**:
    ```cmd
    python -m venv venv
    venv\Scripts\activate
@@ -54,7 +47,7 @@ A real-time computer vision system that detects faces and hand gestures using Py
 ## Usage
 
 ### Windows
-Double-click `run_windows.bat` or run manually:
+ run manually:
 ```cmd
 venv\Scripts\activate
 python main.py
@@ -103,8 +96,6 @@ The system uses MediaPipe's built-in hand classification to distinguish between 
 ├── main.py              # Main application entry point
 ├── gesture_detector.py  # Core detection and processing logic
 ├── requirements.txt     # Python dependencies
-├── setup_windows.bat    # Windows setup script
-├── run_windows.bat      # Windows run script
 ├── .gitignore          # Git ignore file
 └── README.md           # This file
 ```
@@ -115,8 +106,6 @@ The system uses MediaPipe's built-in hand classification to distinguish between 
 - `main.py`
 - `gesture_detector.py`
 - `requirements.txt`
-- `setup_windows.bat` (for Windows)
-- `run_windows.bat` (for Windows)
 - `README.md` (optional)
 
 **Do NOT copy:**
